@@ -1,0 +1,44 @@
+# Ignorar a pasta node_modules
+node_modules/
+package-lock.json
+# Ignorar arquivos de configuração do ambiente
+.env
+
+# Ignorar arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar cache do TypeScript
+dist/
+build/
+.cache/
+
+# Ignorar arquivos gerados por IDEs/editors
+.vscode/
+.idea/
+
+# Ignorar arquivos do sistema operacional
+*.swp
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.history/
+.*.sublime-workspace
+
+# Ignorar configurações de Docker (se você não quiser versionar)
+docker-compose.override.yml
+
+# Ignorar arquivos de pacotes globais Yarn e npm
+.yarn/
+.pnp.*
+
+# Ignorar saída de cobertura de testes
+coverage/
